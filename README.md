@@ -10,3 +10,5 @@ If you don't use the Universal Theme, you can set your own top margin.
 
 Sidenote: IE
 It does work in IE, but it's not as native as in Chrome / Firefox / Edge Chromium / ..
+
+APEX versions	 5.1.4 and up. (Tested in  5.1.4, 19.1, 20.2)
