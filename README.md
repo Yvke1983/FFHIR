@@ -1,4 +1,4 @@
-# FFHIR
+# Fix Fixed Header IR
 Fix Fixed Header IR
 Fixed Headers do not work if you have a control break on your Interactive Report.
 Here is a workaround.
