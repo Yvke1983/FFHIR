@@ -1,0 +1,12 @@
+.makeSticky{
+    position: sticky;
+    top: 48px;
+    z-index: 9;
+}
+
+.sticky-top-ie{
+    position:fixed;
+    width:100%;
+    z-index:9;
+    top:48px;
+} 
