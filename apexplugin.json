@@ -26,8 +26,7 @@
       "plugin" : {
         "internalName" : "FIXFIXEDHEADERSIR",
         "type" : "dynamic action",
-        "demo" : "https://apex.oracle.com/pls/apex/yvonne/r/fix-headers-ir/fix-fixed-headers-plugin",
-        "previewImage" : ""
+        "demo" : "https://apex.oracle.com/pls/apex/yvonne/r/fix-headers-ir/fix-fixed-headers-plugin"
       }
     }
   }
