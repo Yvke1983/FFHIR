@@ -1,7 +1,7 @@
 {
-  "name" : "FFHIR",
+  "name" : "Fix Fixed Header IR",
   "version" : "1.0",
-  "description" : "Oracle Apex plugin to fix sticky / fixed headers on control break for Interactive Reports.",
+  "description" : "Oracle APEX plugin to fix sticky / fixed headers on control break for Interactive Reports.",
   "keywords" : ["sticky", "fix", "fixed", "headers","interactive","report","control","break"],
   "homepage" : "https://github.com/Yvke1983/FFHIR",
   "bugs" : {
