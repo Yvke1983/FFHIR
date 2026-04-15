@@ -12,7 +12,7 @@ function initFixFixedHeader(){
                     fixFixedHeader("th");
                     return false;      
                 }
-        }});
+        }}); 
     }
 }
 
@@ -32,19 +32,17 @@ function fixFixedHeader(selector){
 
         //Check if browser is Internet Explorer.
         if(navigator.userAgent.indexOf('IE')!==-1|| navigator.appVersion.indexOf('Trident/') > -1){
-            $makeStickyIE = $('.makeSticky:first');
-            
-            $makeStickyIE.parent().children().each(function getWidth(){ var $thisIE = $(this); var aWidth = $thisIE.css("width"); $thisIE.css('width',aWidth);})
+            $('.makeSticky:first').parent().children().each(function getWidth(){ var $thisIE = $(this); var aWidth = $thisIE.css("width"); $thisIE.css('width',aWidth);})
 
             // Scroll event check
             $(window).scroll(function (event) {
                 var scroll = $(window).scrollTop();
-                var offsetRegion = $(".t-IRR-region").offset().top + 70;
+
                 // Activate sticky for IE if scrolltop is more than 20px
-                if ( scroll > offsetRegion) {
-                    $makeStickyIE.parent().addClass( "sticky-top-ie" );
+                if ( scroll > 70) {
+                    $('.makeSticky:first').parent().addClass( "sticky-top-ie" );
                 }else{
-                    $makeStickyIE.parent().removeClass( "sticky-top-ie" );        
+                    $('.makeSticky:first').parent().removeClass( "sticky-top-ie" );        
                 }
 
             });
