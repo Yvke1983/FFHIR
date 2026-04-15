@@ -33,7 +33,7 @@ prompt APPLICATION 56240 - Demo
 -- Application Export:
 --   Application:     56240
 --   Name:            Demo
---   Date and Time:   11:51 Wednesday April 15, 2026
+--   Date and Time:   12:09 Wednesday April 15, 2026
 --   Exported By:     YVONNE
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -57,8 +57,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_name=>'FIXFIXEDHEADERSIR'
 ,p_display_name=>'Fix Fixed Headers IR'
 ,p_category=>'MISC'
-,p_javascript_file_urls=>'#PLUGIN_FILES#/ffhir.js'
-,p_css_file_urls=>'#PLUGIN_FILES#/ffhir.css'
+,p_javascript_file_urls=>'#PLUGIN_FILES#ffhir#MIN#.js'
+,p_css_file_urls=>'#PLUGIN_FILES#ffhir#MIN#.css'
 ,p_plsql_code=>wwv_flow_string.join(wwv_flow_t_varchar2(
 'function fixFHIR (p_dynamic_action in apex_plugin.t_dynamic_action,',
 '                                p_plugin         in apex_plugin.t_plugin)',
@@ -84,7 +84,7 @@ wwv_flow_imp_shared.create_plugin(
 ,p_render_function=>'fixFHIR'
 ,p_standard_attributes=>'ONLOAD:INIT_JAVASCRIPT_CODE'
 ,p_substitute_attributes=>true
-,p_version_scn=>15757359333779
+,p_version_scn=>15757361716009
 ,p_subscribe_plugin_settings=>true
 ,p_version_identifier=>'1.0'
 ,p_about_url=>'http://www.oritech.nl/yvonneisdebeste'
