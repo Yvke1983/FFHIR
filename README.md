@@ -12,3 +12,5 @@ Sidenote: IE
 It does work in IE, but it's not as native as in Chrome / Firefox / Edge Chromium / ..
 
 APEX versions	 5.1.4 and up. (Tested in  5.1.4, 19.1, 20.2, 21.2, 24.2)
+
+In the APEX map there are 2 plugin files, 1 for APEX Versions 24.2 (and up...) and one for APEX 5.1 and up. This way you can still use the plugin if you have an older version of APEX 
